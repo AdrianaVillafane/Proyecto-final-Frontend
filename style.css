@@ -13,7 +13,7 @@ body {
 
 header {
   background-image: URL("img/dimension.jpg");
-  width: 1600px;
+  width: 95%;
   height: 100px;
   margin: 50px 40px;
   border: 5px solid black;
@@ -29,7 +29,7 @@ header {
 
 footer {
   background-image: URL("img/dimension.jpg");
-  width: 1600px;
+  width: 95%;
   height: 80px;
   margin: 50px 40px;
   font-size: 20px;
@@ -82,7 +82,13 @@ a {
     grid-template-columns: 1fr 1fr;
   }
   header {
-    width: 95vmax;
+    width: 92%;
+    font-size: 20px;
+    text-align: center;
+  }
+  footer {
+    width: 92%;
+    font-size: 18px;
   }
 }
 @media (max-width: 480px) {
@@ -90,6 +96,12 @@ a {
     grid-template-columns: 1fr;
   }
   header {
-    width: 95vmax;
+    width: 92%;
+    font-size: 20px;
+    text-align: center;
+  }
+  footer {
+    width: 92%;
+    font-size: 18px;
   }
 }
