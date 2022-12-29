@@ -82,7 +82,7 @@ a {
     grid-template-columns: 1fr 1fr;
   }
   header {
-    width: 95%;
+    width: 95vmax;
   }
 }
 @media (max-width: 480px) {
@@ -90,6 +90,6 @@ a {
     grid-template-columns: 1fr;
   }
   header {
-    width: 95%;
+    width: 95vmax;
   }
 }
