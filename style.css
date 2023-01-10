@@ -48,11 +48,9 @@ footer {
   font-size: 30px;
 }
 
-#container {
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* display: flex;
-  flex-wrap: wrap; */
   gap: 10px;
 }
 .option-name {
